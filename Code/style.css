@@ -108,7 +108,7 @@ i{
 .buttons{
     margin-top: 20px;
 }
-.buttons button{
+#c{
     height: 40px;
     width: 100px;
     background-color: rgb(255, 166, 0);
@@ -119,6 +119,7 @@ i{
 
 /* section 2 */
 .boxes{
+    margin: 80px 0px 80px 0px;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -141,10 +142,11 @@ i{
 /* section 3 */
 .about{
     /* width: 100vw; */
+    margin: 80px 0px 80px 0px;
     display: flex;
     justify-content: space-evenly;
     gap: 80px;
-    margin: 0px 40px 0px 40px;
+    /* margin: 0px 40px 0px 40px; */
     align-items: center;
     flex-wrap: wrap;
 }
@@ -173,3 +175,126 @@ i{
 
 
 /* services section 4 */
+.services{
+    margin: 80px 0px 80px 0px;
+    /* margin-top: 40px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* align-items: center; */
+    text-align: center;
+}
+#head{
+    color: orange;
+    font-size: 1.6em;
+}
+.services h2{
+    font-size: 3em;
+}
+
+.services h3{
+    font-weight: 200;
+    font-size: 2em;
+}
+
+
+.services .rows{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.service{
+    height: 300px;
+    /* border: 1px solid black; */
+}
+
+.service img{
+    height: 80%;
+}
+
+.service .content{
+    display: flex;
+    /* justify-content: space-evenly; */
+    overflow: hidden;
+    gap: 20px;
+    text-align: start;
+
+}
+
+.logo {
+    overflow: hidden;
+}
+.service .content .logo i{
+    font-size: 34px;
+}
+
+#para2{
+    font-weight: 200;
+}
+
+
+/* section 5 */
+.contactus{
+    margin: 80px 0px 80px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contactus .right .row-c{
+    
+    margin-top: 30px;
+}
+
+.contactus .right input{
+    height: 40px;
+    width: 240px;
+    padding-left: 20px;
+    border: 1px solid rgba(rgb(255, 255, 255), rgb(251, 251, 251), rgb(247, 247, 255), 0.4);
+}
+.contactus .right select{
+    height: 40px;
+    width: 240px;
+    padding-left: 20px;
+}
+.contactus .right textarea{
+    height: 100px;
+    width: 98%;
+    padding-left: 20px;
+}
+
+.row-c button{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(255, 123, 0);
+    border:  none;
+    color: white;
+    border-radius: 30px;
+    font-size: 1em;
+}
+
+.banner{
+    background-image: url(cta-s2-bg.jpg);
+    height: 570px;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    margin: 80px 0px 80px 0px;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: rgb(14, 38, 94);
+}
+
+.banner p{
+    font-size: 1.6em
+}
+.banner h2{
+    font-size: 4em;
+}
